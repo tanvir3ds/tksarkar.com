@@ -1,0 +1,60 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+        <!-- Hero Start -->
+        <div class="slider-area ">
+            <div class="slider-height2 d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap">
+                                <h2>Awards</h2>
+                                <nav aria-label="breadcrumb ">
+                                    <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="{% url 'awards' %}">Awards</a></li> 
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <br><br><br>
+        <div class="container ">
+
+            <article class="blog_item">
+                <div class="blog_item_img">
+                    <img class="card-img rounded-0" src="http://www.tksarkar.com/images/slider/slide2.jpg"
+                        alt="">
+                    
+                </div>
+
+                <div class="blog_details">
+                    <a class="d-inline-block" href="blog_details.html">
+                        <h2>Best CTO-2014’ Awards of Excellence in recognition of Leadership in implementation of Digital Bangladesh</h2>
+                    </a>
+                    <p class="text-justify">The largest ICT exposition of South Asia, Bangladesh ICT Expo, 2015 was held in the Bangabandhu International Convention Center in the capital on June 17. The event was organized jointly by ICT Division of Bangladesh Government and Bangladesh Computer Samity (BCS).  In this prevalent event the government of Peoples Republic of Bangladesh first ever has announced the recognition of individuals for their dynamic leadership for implementing Digital Bangladesh that lead to development of ICT industry of our country. Mr. Tapan Kanti Sarkar, the founder president of CTO Forum Bangladesh and a fellow member of SAARC CTO Forum has been awarded as CTO of the Year 2014. The Award of ICT excellence for the year 2014 was given by honorable Finance Minister & state Minister for Post telecommunication & ICT.</p>
+                    <ul class="blog-info-link">
+                        <li><a href="#"><i class="fa "></i> Time: 2014</a></li>
+                        
+                    </ul>
+                </div>
+            </article>
+            
+        </div>
+
+
+
+        
+
+        
+
+
+{% endblock %}
